@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+
+<addon scheme='2.0'>
+    <id>stripe</id>
+    <name>Stripe</name>
+    <description>Add stripe payment method</description>
+    <version>1.0</version>
+    <priority>100500</priority>
+    <functions>
+        <item for="install">fn_stripe_install</item>
+        <item for="uninstall">fn_stripe_uninstall</item>
+    </functions>
+</addon>
