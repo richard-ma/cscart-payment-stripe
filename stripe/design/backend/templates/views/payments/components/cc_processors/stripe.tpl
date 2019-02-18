@@ -1,13 +1,13 @@
 <div class="control-group">
-    <label class="control-label" for="accno">Stripe Account:</label>
+    <label class="control-label" for="publishable_key">Stripe Publishable key:</label>
     <div class="controls">
-        <input type="text" name="payment_data[processor_params][accno]" id="accno" value="{$processor_params.accno}" />
+        <input type="text" name="payment_data[processor_params][publishable_key]" id="publishable_key" value="{$processor_params.publishable_key}" />
     </div>
 </div>
 
 <div class="control-group">
-    <label class="control-label" for="md5key">Stripe MD5Key:</label>
+    <label class="control-label" for="secret_key">Stripe Secret key:</label>
     <div class="controls">
-        <input type="text" name="payment_data[processor_params][md5key]" id="md5key" value="{$processor_params.md5key}" />
+        <input type="text" name="payment_data[processor_params][secret_key]" id="secret_key" value="{$processor_params.secret_key}" />
     </div>
 </div>
