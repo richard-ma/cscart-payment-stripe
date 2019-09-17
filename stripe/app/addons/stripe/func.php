@@ -8,7 +8,7 @@ if (!defined('BOOTSTRAP')) { die('Access denied'); }
 
 function fn_stripe_install()
 {
-    db_query("INSERT INTO `?:payment_processors` (`processor`, `processor_script`, `processor_template`, `admin_template`, `callback`, `type`, `addon`) VALUES ('Stripe', 'stripe.php', 'views/orders/components/payments/cc_stripe.tpl', 'stripe.tpl', 'N', 'P', 'stripe');");
+    db_query("INSERT INTO `?:payment_processors` (`processor`, `processor_script`, `processor_template`, `admin_template`, `callback`, `type`, `addon`) VALUES ('Stripe', 'stripe.php', 'views/orders/components/payments/cc_outside.tpl', 'stripe.tpl', 'N', 'P', 'stripe');");
 }
 
 function fn_stripe_uninstall()
