@@ -1,13 +1,6 @@
 <div class="control-group">
-    <label class="control-label" for="publishable_key">Stripe Publishable key:</label>
+    <label class="control-label" for="secret_key">Stripe key:</label>
     <div class="controls">
-        <input type="text" name="payment_data[processor_params][publishable_key]" id="publishable_key" value="{$processor_params.publishable_key}" />
-    </div>
-</div>
-
-<div class="control-group">
-    <label class="control-label" for="secret_key">Stripe Secret key:</label>
-    <div class="controls">
-        <input type="text" name="payment_data[processor_params][secret_key]" id="secret_key" value="{$processor_params.secret_key}" />
+        <input type="text" name="payment_data[processor_params][key]" id="key" value="{$processor_params.key}" />
     </div>
 </div>
