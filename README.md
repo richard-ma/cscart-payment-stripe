@@ -10,7 +10,9 @@
 ![](./docs/images/install3.png)
 * Add-ons -> Manage add-ons -> Installed add-ons -> stripe -> 点击Active
 ![](./docs/images/install4.png)
+* 找到Stripe插件，点击右侧的Active
 ![](./docs/images/install5.png)
+* 点击后Stripe插件为启用状态，完成安装
 ![](./docs/images/install6.png)
 
 ## 配置方法
@@ -19,9 +21,8 @@
 * 按照图中数据填好
 ![](./docs/images/configure2.png)
 * 点击configure选项卡
+* 填入Key，然后点击创建
 ![](./docs/images/configure3.png)
-* 填入商户号和MD5Key，然后点击创建
-![](./docs/images/configure4.png)
 
 ## 卸载方法
 * Add-ons -> Manage add-ons -> stripe -> Uninstall
