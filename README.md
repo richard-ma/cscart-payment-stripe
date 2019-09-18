@@ -7,7 +7,7 @@
 ![](./docs/images/install1.png)
 * Local -> 选择stripe.tar.gz压缩包 -> 点击Upload & Install
 ![](./docs/images/install2.png)
-* Add-ons -> Manage add-ons -> Installed add-ons
+* Add-ons -> Manage add-ons -> Installed add-ons                              
 ![](./docs/images/install4.png)
 * 找到Stripe插件，点击右侧的Active
 ![](./docs/images/install5.png)
