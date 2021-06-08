@@ -1,13 +1,47 @@
 <?xml version="1.0"?>
 
-<addon scheme='2.0'>
+<addon scheme='3.0'>
     <id>stripe</id>
     <name>Stripe</name>
     <description>Add stripe payment method</description>
     <version>1.0</version>
-    <priority>100500</priority>
-    <functions>
-        <item for="install">fn_stripe_install</item>
-        <item for="uninstall">fn_stripe_uninstall</item>
-    </functions>
+    <priority>100</priority>
+    <default_language>en</default_language>
+    <status>active</status>
+    <compatibility>
+        <core_version>
+            <min>4.3.2</min>
+            <max>4.3.3</max>
+        </core_version>
+    </compatibility>
+    <queries>
+        <item for="install">
+            INSERT INTO `?:payment_processors` (
+            `processor`, 
+            `processor_script`, 
+            `processor_template`, 
+            `admin_template`, 
+            `callback`, 
+            `type`, 
+            `addon`
+            ) VALUES (
+            'Stripe', 
+            'stripe.php', 
+            'addons/stripe/views/orders/components/payments/stripe.tpl', 
+            'stripe.tpl', 
+            'Y', 
+            'P', 
+            'stripe'
+            );
+        </item>
+        <item for="uninstall">
+            DELETE FROM ?:payment_descriptions WHERE payment_id IN (SELECT payment_id FROM ?:payments WHERE processor_id IN (SELECT processor_id FROM ?:payment_processors WHERE processor_script IN ('stripe.php')));
+        </item>
+        <item for="uninstall">
+            DELETE FROM ?:payments WHERE processor_id IN (SELECT processor_id FROM ?:payment_processors WHERE processor_script IN ('stripe.php'));
+        </item>
+        <item for="uninstall">
+            DELETE FROM ?:payment_processors WHERE processor_script IN ('stripe.php');
+        </item>
+</queries>
 </addon>
