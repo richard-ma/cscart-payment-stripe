@@ -1,0 +1,93 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::stripe"
+msgid "Stripe"
+msgstr "Stripe"
+
+msgctxt "Addons::description::stripe"
+msgid "Lets you accept payments via Stripe."
+msgstr "Lets you accept payments via Stripe."
+
+msgctxt "Languages::stripe.stripe"
+msgid "Stripe"
+msgstr "Stripe"
+
+msgctxt "Languages::stripe.publishable_key"
+msgid "Publishable key"
+msgstr "Publishable key"
+
+msgctxt "Languages::stripe.secret_key"
+msgid "Secret key"
+msgstr "Secret key"
+
+msgctxt "Languages::stripe.payment_type"
+msgid "Payment type"
+msgstr "Payment type"
+
+msgctxt "Languages::stripe.payment_type.card"
+msgid "Credit card"
+msgstr "Credit card"
+
+msgctxt "Languages::stripe.payment_type.apple_pay"
+msgid "Apple Pay"
+msgstr "Apple Pay"
+
+msgctxt "Languages::stripe.payment_type.apple_pay.description"
+msgid "<p>Apple's <a href=\"[guidelines_url]\" target=\"_blank\">Human Interface Guidelines</a> require you to display the Apple Pay mark on the checkout page.</p><p>You can set the following image as the payment method icon or use it in the payment method description:</p>"
+msgstr "<p>Apple's <a href=\"[guidelines_url]\" target=\"_blank\">Human Interface Guidelines</a> require you to display the Apple Pay mark on the checkout page.</p><p>You can set the following image as the payment method icon or use it in the payment method description:</p>"
+
+msgctxt "Languages::stripe.payment_type.google_pay"
+msgid "Google Pay"
+msgstr "Google Pay"
+
+msgctxt "Languages::stripe.payment_type.google_pay.description"
+msgid "<p>Google's <a href=\"[guidelines_url]\" target=\"_blank\">Brand guidelines</a> require you to display the Google Pay mark on the checkout page.</p><p>You can set the following image as the payment method icon or use it in the payment method description:</p>"
+msgstr "<p>Google's <a href=\"[guidelines_url]\" target=\"_blank\">Brand guidelines</a> require you to display the Google Pay mark on the checkout page.</p><p>You can set the following image as the payment method icon or use it in the payment method description:</p>"
+
+msgctxt "Languages::stripe.online_payment"
+msgid "Online payment"
+msgstr "Online payment"
+
+msgctxt "Languages::stripe.test_payment"
+msgid "Test payment (won't be charged)"
+msgstr "Test payment (won't be charged)"
+
+msgctxt "Languages::stripe.test_payment.description"
+msgid "Your card won't be charged when using Apple Pay or Google Pay."
+msgstr "Your card won't be charged when using Apple Pay or Google Pay."
+
+msgctxt "Languages::stripe.apple_pay_not_supported"
+msgid "Apple Pay is not supported on this device"
+msgstr "Apple Pay is not supported on this device"
+
+msgctxt "Languages::stripe.google_pay_not_supported"
+msgid "Google Pay is not supported on this device"
+msgstr "Google Pay is not supported on this device"
+
+msgctxt "Languages::stripe.token"
+msgid "Stripe payment token"
+msgstr "Stripe payment token"
+
+msgctxt "Languages::stripe.account_country"
+msgid "Stripe account country"
+msgstr "Stripe account country"
+
+msgctxt "Languages::stripe.show_payment_button"
+msgid "Show \"[button_name]\" button on product pages"
+msgstr "Show \"[button_name]\" button on product pages"
+
+msgctxt "Languages::stripe.payment_type.buy_with_apple_pay"
+msgid "Buy with Apple Pay"
+msgstr "Buy with Apple Pay"
+
+msgctxt "Languages::stripe.payment_type.buy_with_google_pay"
+msgid "Buy with Google Pay"
+msgstr "Buy with Google Pay"
+
+msgctxt "Languages::stripe.payment_intent_error"
+msgid "An error occured when creating a PaymentIntent with the payment #[payment_id]: [error]"
+msgstr "An error occured when creating a PaymentIntent with the payment #[payment_id]: [error]"
